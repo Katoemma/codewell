@@ -1,0 +1,184 @@
+body{
+    width: 375px;
+    font-family: 'Cabin';
+    margin-top: 0px;
+    margin-left: 0px;
+}
+.advert{
+    background: #000000;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+.advert p{
+    line-height: 30px;
+}
+.advert img{
+    width: 20px;
+}
+.advert p a {
+    color: #ffffff;
+    font-weight: 500;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background: #e8e6e6e1;
+}
+.navigation{
+    display: inline-block;
+}
+.menu-icon{
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.bar-1, .bar-2, .bar-3{
+    width: 26px;
+    height: 4px;
+    background-color: black;
+    margin: 4px auto;
+}
+.change .bar-1{
+    transform: rotate(-45deg) translate(-6px, 5px);
+}
+.change .bar-2 {
+    visibility: hidden;
+}
+.change .bar-3{
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+.navigation ul{
+    display: none;
+}
+.show{
+    display: block;
+}
+/*for page-1 mobile*/
+.page-1{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #e8e6e6e1;
+}
+.img img{
+    width: 340px;
+}
+.hero-text p{
+    color: #646060;
+}
+.checkings p{
+    font-weight: 600;
+    color: #3e3d3d;
+}
+.checkings p img{
+    width: 15px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+form input,button{
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+form button{
+    background: #000000;
+    color: #ffffff;
+    line-height: 1px;
+}
+.page-2{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.logos{
+    display: flex;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+.logos img{
+    width: 95px;
+}
+.tablet-logo, .desktop-logo{
+    display: none;
+}
+.Escrow{
+    display: flex;
+    flex-direction: column;
+    background: #e8e6e6e1;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+.Escrow .text-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.text-elements h1{
+    font-size: 50px;
+}
+.text-elements p{
+    font-size: 20px;
+    line-height: 35px;
+    color: #646060;
+}
+.text-elements a{
+    font-size: 20px;
+    color: #646060;
+}
+.text-elements a img{
+    width: 20px;
+}
+.Escrow img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+.page-3{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 40px;
+}
+.editor-text{
+    display: flex;
+    flex-direction: column;
+}
+.editor-text p, a{
+    color: #646060;
+    font-weight: 600;
+}
+.editor-text a img{
+    width: 15px;
+}
+.last-data{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #000000;
+    color: #ffffff;
+}
+.spense-text h3{
+    font-weight: 500;
+}
+.spense-text p{
+    line-height: 25px;
+    color: #646060;
+}
+.last-data .more{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.more .company{
+    display: flex;
+    flex-direction: column;
+}
+.more h3{
+    font-weight: 500;
+}
+.last-data .more p{
+    color: #646060;
+}
